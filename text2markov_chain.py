@@ -87,7 +87,7 @@ def main():
 
     # 3つ組の出現回数
     triplet_freqs = defaultdict(int)
-    for idx, tweet in enumerate(df_tweets[:10000]):
+    for idx, tweet in enumerate(df_tweets):
         if idx % 100 == 0:
             print('{}: {}'.format(idx, datetime.now()))
         for sentence in tweet.splitlines():
