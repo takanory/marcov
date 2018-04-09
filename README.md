@@ -30,3 +30,9 @@ $ . env/bin/activate
 (env) $ python generate_text.py
 名古屋みやげのTシャツです。
 ```
+
+## reference
+
+* [マルコフ連鎖を使って自分らしい文章をツイートする - Qiita](https://qiita.com/hitsumabushi845/items/647f8bbe8d399f76825c)
+* [Pythonリハビリのために文章自動生成プログラムを作ってみた - \[\[ともっくす alloc\] init\]](http://o-tomox.hatenablog.com/entry/2014/11/14/190632)
+* [o-tomox/TextGenerator: マルコフ連鎖を使った文章自動生成プログラム](https://github.com/o-tomox/TextGenerator)
